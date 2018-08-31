@@ -1,0 +1,53 @@
+
+body{
+
+  background-image: url(backgroundimage.jpg);
+  background-size: 700px 700px;
+}
+
+h3  {
+	color: black;
+	background-color: pink;
+	text-align: center;
+	border: 2px solid #363377;
+	cursor: pointer;
+}
+
+
+li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	background-color: pink;
+}
+
+img{
+	float: left;
+}
+
+footer{
+	
+	text-align: center;
+	color: white;
+}
+
+
+#div1 .salutation{
+
+	color: pink !important;
+	text-align: left !important;
+	background-color: rgba(136, 45, 96, 0.2);
+	font-size: 100%;
+	font-family: Georgia;
+	line-height: 20px;
+}
+
+p{
+	color: white;
+	line-height: 50px;
+	font-style: italic;
+	font-size: 150%;
+	font-family: 'Pacifico', cursive;
+}
+
+

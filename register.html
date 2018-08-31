@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Yourself here</title>
+<link rel="stylesheet" type="text/css" href="Lecture43_style.css">
+</head>
+<body>
+	<!-- use GET and not POST -->
+	<!-- Comment anything using ctrl + Shift + / -->
+	<a href="index.html" title="blog Page">Back to Blog Page</a><p/>
+<form method="GET">
+	First Name : <input type="text" name="firstname" ><br>
+	Last Name  : <input type="text" name="lastname" ><br>
+	Email: <input type="Email" required name="Email"><br>
+	Password : <input type="Password" minlength="5" name="Password"><br>
+	Birthday :<input type="date" name="Birthday" ><br>
+	Gender :<br>
+	Male<input type="radio" name="Gender" value="Male" ><br>
+	Female<input type="radio" name="Gender" value="Female"><br>
+	Not Specified<input type="radio" name="Gender" value="Not Specified" ><br>
+	Cars :<br>
+	<select name="cars" >
+		<option value="Santro" >Santro</option>
+		<option value="Audi">Audi</option>
+		<option value="Mercedez" >Mercedez</option>
+		<option value="Wragon R" >Wragon R</option>
+		<option value="Swift Dezire" >Swift Dezire</option>
+	</select><br>
+		Do you have any pets ? <br>
+		<input type="checkbox" name="Pet" value="Dog">Dog<br>
+		<input type="checkbox" name="Pet" value="Cat">Cat<p>
+	<input type="Submit" value="Register">
+	<input type="reset" value="Reset your values">
+</form>
+
+</body>
+</html>
+
